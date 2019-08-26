@@ -6,7 +6,7 @@ from typing import TypeVar, Generic
 T = TypeVar('T')
 
 
-class DLNode:
+class DLNode(Generic[T]):
     def __init__(self, data: T, prev=None, next=None):
         self.data = data
         self.prev = prev
@@ -26,8 +26,8 @@ class DLNode:
 
 
 class DoublyLinkedList(Generic[T]):
-    head: DLNode = None
-    tail: DLNode = None
+    head: DLNode[T] = None
+    tail: DLNode[T] = None
     size: int = 0
 
     def lpush(self, data: T):
