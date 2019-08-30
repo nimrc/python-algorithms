@@ -1,0 +1,7 @@
+language: python3
+
+before_script:
+  - pip3 install pytest
+
+script:
+  python3 run_tests.py

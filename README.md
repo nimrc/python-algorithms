@@ -1,5 +1,7 @@
 ## Algorithms and Data Structures implemented in python3
 
+[![Build Status](https://travis-ci.org/fyibmsd/python-algorithms.svg?branch=master)](https://travis-ci.org/fyibmsd/python-algorithms)
+
 ### Linked List
 When we want to work with an unknown number of data values, we use a linked list data structure to organize that data. The linked list is a linear data structure that contains a sequence of elements such that each element links to its next element in the sequence. Each element in a linked list is called "Node".
 ### Tree
